@@ -1,0 +1,267 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.centrado {
+    margin: 0;
+    color: rgb(0, 0, 0);
+}
+
+.centradopol {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'roboto', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+.felo {
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: gainsboro;
+    text-align: center;
+}
+
+.footer {
+    float: left;
+    width: 100%;
+    height: 150px;
+    background-color: rgb(150, 150, 150);
+}
+
+.imgfor {
+    max-width: 300px;
+    height: auto;
+    flex-shrink: 0;
+}
+
+.formgr {
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    margin-left: auto;
+    margin-right: auto;
+    width: 67%;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.formgr:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.12); 
+}
+
+.formdestc {
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
+}
+
+.formdestc:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.12);
+}
+
+.izquierda {
+    text-align: left;
+    margin-left: 200px;
+    font-size: 30px;
+}
+
+.contenedornotic {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.contenido_tecto {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+}
+
+.tama {
+    font-size: 25px;
+    text-decoration: none;
+    transition: color 0.2s ease-in out;
+    color: rgb(0, 0, 0);
+
+}
+
+.arbi {
+    font-style: italic;
+    color: rgb(95, 95, 95);
+}
+
+.tamko {
+    font-size: 30px;
+}
+
+.tamfooter {
+font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(0, 0, 0);
+    text-align: center; 
+}
+
+.fontp {
+    font-size: 50px;
+
+}
+
+.celo {
+    
+    text-align: center;
+}
+
+.textizquierda {
+    text-align: left;
+    margin-left: 500px;
+}
+
+.h3color h3 a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    transition: color 0.2s ease-in out;
+
+}
+
+.contenedornotic h3 a:hover {
+    color: #c94035;
+}
+
+.aside {
+    float: left;
+    background-color: rgb(200, 200, 200);
+    width: 150px;
+    padding: 5px;
+    margin-top: 40px;
+    border: solid 1px rgb(150, 150, 150);
+    box-shadow: 2px 2px 5px rgb(150, 150, 150);
+    flex-shrink: 0;
+    position: sticky;
+    top: 1px;
+    
+}
+
+.asideli {
+    font-size: 13px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    background-color: rgb(175, 175, 175);
+    text-align: center;
+    padding: 5px;
+    font-family: Arial , Helvetica, sans-serif;
+    transition: color 0.2s ease-in out;
+    margin: 40px 0;
+    list-style-type: none;
+    border-top: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.asideli:hover {
+    color: #c94035;
+    background-color: #43d3d3;
+    transition: all 0.1s ease-in-out;
+}
+
+.orgtia {
+    text-decoration: none;
+}
+
+
+.widgetul {
+    padding-left: 20px;
+}
+
+.lienca {
+    text-align: center;
+    font-size: 30px;
+}
+
+.barralateral {
+    background-color: rgb(200, 200, 200);
+    width: 150px;
+    padding: 5px;
+    margin-top: 40px;
+    border: solid 1px rgb(150, 150, 150);
+    box-shadow: 2px 2px 5px rgb(150, 150, 150);
+}
+
+.header{
+    background-color: rgb(167, 167, 167);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.cabecera {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.logositi {
+    max-width: 500px;
+    height: 20;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.logositi:hover {
+    transform: scale(1.05);
+}
+
+.contenelogo {
+    padding: 25px 0; /* Antes era 25px. Esto quita casi la mitad del espacio en blanco */
+}
+
+.line {
+    width: 100%;
+    border: none;
+    border-top: 1px solid rgb(110, 110, 110);
+    margin: 0;
+}
+
+.menunav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 10px 20px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.menunav a {
+    color: rgb(253, 253, 253);
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    transition: color 0.2s ease-in-out;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: color 0.2s ease;
+}
+.menunav a:hover {
+    color: #00e5ff;
+}
+
+.menu-cabecera a:hover {
+    color: #00e5ff;
+}
